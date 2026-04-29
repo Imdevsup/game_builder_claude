@@ -4,7 +4,7 @@ Personal game-builder configured on top of Claude Code.
 
 ## What this is
 
-A complete studio-as-code setup. The game is a browser MMORPG with an AI-driven economy, AI NPCs, and a final boss who is a glitched System entity disguised as the King. Stack is Colyseus + React + TypeScript + Postgres + Gemini.
+A complete studio-as-code setup. turns claude code into a game builder
 
 ## How it works
 
