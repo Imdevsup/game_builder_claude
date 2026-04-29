@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+.cache/
+coverage/
+.next/
+.turbo/
+
+# local-only Claude Code state
+.claude/cache/
+.claude/sessions/

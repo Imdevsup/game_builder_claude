@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "command": "bash .claude/hooks/inject-context.sh",
+        "description": "inject reminder of inviolable rules and current phase"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "command": "bash .claude/hooks/guard-bash.sh",
+        "description": "block destructive commands and rm -rf"
+      }
+    ]
+  }
+}
